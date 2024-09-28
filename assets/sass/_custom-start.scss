@@ -1,0 +1,25 @@
+// This file will be applied first
+// You can override variables, example:
+// $base-font-size: 10px;
+
+// Variables
+$body-margin-left: 16px !default;
+$body-margin-right: 16px !default;
+$font-family: sans-serif !default;
+$base-font-size: 18px !default;
+$line-height: 1.5 !default;
+$body-max-width: 768px !default;
+$desktop-breakpoint: $body-max-width + $body-margin-left + $body-margin-right !default;
+
+$background-color-light: #FFFD74 !default;
+$background-color1-light: #ebdbb2 !default;
+$foreground-color-light: #3c3836 !default;
+$foreground-color3-light: #3c3836 !default;
+$accent-color-light: #588FE4 !default;
+
+$background-color-dark: #282828 !default;
+$background-color1-dark: #3c3836 !default;
+$foreground-color-dark: #FFFD74 !default;
+$foreground-color3-dark: #FFFD74 !default;
+$accent-color-dark: #FFFD74 !default;
+
