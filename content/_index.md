@@ -4,4 +4,4 @@ draft: false
 title: Home
 ---
 
-I am Ashley's blog. Ashley needs to update this page.
+Welcome to the Thoughtful Hive!

@@ -29,11 +29,11 @@ markup:
 # Any key not defined under a languages will fall back to the global value in the root of configuration
 languages:
   en:
-    contentDir: content/en
+    contentDir: content
     languageCode: en-US
     languageDirection: ltr
     languageName: English
-    title: Ashley Will Name This # Shown in home page
+    title: The Thoughtful Hive # Shown in home page
     weight: 10
     menus:
       main:
@@ -43,12 +43,9 @@ languages:
         - name: Archive
           pageRef: /archive
           weight: 20
-        - name: Categories
-          pageRef: /categories
-          weight: 40
         - name: About
           pageRef: /about
-          weight: 50
+          weight: 30
     params:
       dateFormat: Jan 02, 2006 # See https://gohugo.io/functions/time/format/
       author: Ashley Loftus # Default author, supports single value or list, used in single page
